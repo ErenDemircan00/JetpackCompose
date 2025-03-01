@@ -45,11 +45,6 @@ fun Sayfa(name: String, modifier: Modifier = Modifier) {
             Text(text = "Merhaba Kullanıcı")
 
         }
-        Column (modifier=Modifier.fillMaxSize()
-            .padding(paddingValues)
-            ){
-            Text(text = "merhaba")
-        }
     }
 }
 
